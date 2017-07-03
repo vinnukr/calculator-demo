@@ -1,0 +1,929 @@
+/* =========================================================== Bootstrap Grid =================================== */
+
+#c2_creditcalculator {
+  background-color: white;
+}
+
+#c2_creditcalculator @-ms-viewport {
+  width: device-width;
+}
+
+#c2_creditcalculator .visible-xs, .visible-sm, .visible-md, .visible-lg {
+  display: none !important;
+}
+
+#c2_creditcalculator .visible-xs-block, .visible-xs-inline, .visible-xs-inline-block, .visible-sm-block, .visible-sm-inline, .visible-sm-inline-block, .visible-md-block, .visible-md-inline, .visible-md-inline-block, .visible-lg-block, .visible-lg-inline, .visible-lg-inline-block {
+  display: none !important;
+}
+
+@media (max-width: 767px) {
+  #c2_creditcalculator .visible-xs {
+    display: block !important;
+  }
+}
+
+@media (max-width: 767px) {
+  #c2_creditcalculator .visible-xs-inline {
+    display: inline !important;
+  }
+}
+
+@media (max-width: 767px) {
+  #c2_creditcalculator .visible-xs-inline-block {
+    display: inline-block !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #c2_creditcalculator .visible-sm {
+    display: block !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #c2_creditcalculator .visible-sm-block {
+    display: block !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #c2_creditcalculator .visible-sm-inline {
+    display: inline !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #c2_creditcalculator .visible-sm-inline-block {
+    display: inline-block !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #c2_creditcalculator .visible-md {
+    display: block !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #c2_creditcalculator .visible-md-block {
+    display: block !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #c2_creditcalculator .visible-md-inline {
+    display: inline !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #c2_creditcalculator .visible-md-inline-block {
+    display: inline-block !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  #c2_creditcalculator .visible-lg {
+    display: block !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .visible-lg-block {
+    display: block !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  #c2_creditcalculator .visible-lg-inline {
+    display: inline !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  #c2_creditcalculator .visible-lg-inline-block {
+    display: inline-block !important;
+  }
+}
+
+@media (max-width: 767px) {
+  #c2_creditcalculator .hidden-xs {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #c2_creditcalculator .hidden-sm {
+    display: none !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #c2_creditcalculator .hidden-md {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  #c2_creditcalculator .hidden-lg {
+    display: none !important;
+  }
+}
+
+#c2_creditcalculator .visible-print {
+  display: none !important;
+}
+
+@media print {
+  #c2_creditcalculator .visible-print {
+    display: block !important;
+  }
+}
+
+.visible-print-block {
+  display: none !important;
+}
+
+@media print {
+  #c2_creditcalculator .visible-print-block {
+    display: block !important;
+  }
+}
+
+#c2_creditcalculator .visible-print-inline {
+  display: none !important;
+}
+
+@media print {
+  #c2_creditcalculator .visible-print-inline {
+    display: inline !important;
+  }
+}
+
+#c2_creditcalculator .visible-print-inline-block {
+  display: none !important;
+}
+
+@media print {
+  #c2_creditcalculator .visible-print-inline-block {
+    display: inline-block !important;
+  }
+}
+
+@media print {
+  #c2_creditcalculator .hidden-print {
+    display: none !important;
+  }
+}
+
+#c2_creditcalculator .bscontainer {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+#c2_creditcalculator .row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+#c2_creditcalculator .col, #c2_creditcalculator .col-xs-1, #c2_creditcalculator .col-sm-1, #c2_creditcalculator .col-md-1, #c2_creditcalculator .col-lg-1, #c2_creditcalculator .col-xs-2, #c2_creditcalculator .col-sm-2, #c2_creditcalculator .col-md-2, #c2_creditcalculator .col-lg-2, #c2_creditcalculator .col-xs-3, #c2_creditcalculator .col-sm-3, #c2_creditcalculator .col-md-3, #c2_creditcalculator .col-lg-3, #c2_creditcalculator .col-xs-4, #c2_creditcalculator .col-sm-4, #c2_creditcalculator .col-md-4, #c2_creditcalculator .col-lg-4, #c2_creditcalculator .col-xs-5, #c2_creditcalculator .col-sm-5, #c2_creditcalculator .col-md-5, #c2_creditcalculator .col-lg-5, #c2_creditcalculator .col-xs-6, #c2_creditcalculator .col-sm-6, #c2_creditcalculator .col-md-6, #c2_creditcalculator .col-lg-6, #c2_creditcalculator .col-xs-7, #c2_creditcalculator .col-sm-7, #c2_creditcalculator .col-md-7, #c2_creditcalculator .col-lg-7, #c2_creditcalculator .col-xs-8, #c2_creditcalculator .col-sm-8, #c2_creditcalculator .col-md-8, #c2_creditcalculator .col-lg-8, #c2_creditcalculator .col-xs-9, #c2_creditcalculator .col-sm-9, #c2_creditcalculator .col-md-9, #c2_creditcalculator .col-lg-9, #c2_creditcalculator .col-xs-10, #c2_creditcalculator .col-sm-10, #c2_creditcalculator .col-md-10, #c2_creditcalculator .col-lg-10, #c2_creditcalculator .col-xs-11, #c2_creditcalculator .col-sm-11, #c2_creditcalculator .col-md-11, #c2_creditcalculator .col-lg-11, #c2_creditcalculator .col-xs-12, #c2_creditcalculator .col-sm-12, #c2_creditcalculator .col-md-12, #c2_creditcalculator .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#c2_creditcalculator .col, #c2_creditcalculator .col-xs-1, #c2_creditcalculator .col-xs-2, #c2_creditcalculator .col-xs-3, #c2_creditcalculator .col-xs-4, #c2_creditcalculator .col-xs-5, #c2_creditcalculator .col-xs-6, #c2_creditcalculator .col-xs-7, #c2_creditcalculator .col-xs-8, #c2_creditcalculator .col-xs-9, #c2_creditcalculator .col-xs-10, #c2_creditcalculator .col-xs-11, #c2_creditcalculator .col-xs-12 {
+  float: left;
+}
+
+#c2_creditcalculator .col-xs-12 {
+  width: 100%;
+}
+
+#c2_creditcalculator .col-xs-11 {
+  width: 91.66666667%;
+}
+
+#c2_creditcalculator .col-xs-10 {
+  width: 83.33333333%;
+}
+
+#c2_creditcalculator .col-xs-9 {
+  width: 75%;
+}
+
+#c2_creditcalculator .col-xs-8 {
+  width: 66.66666667%;
+}
+
+#c2_creditcalculator .col-xs-7 {
+  width: 58.33333333%;
+}
+
+#c2_creditcalculator .col-xs-6 {
+  width: 50%;
+}
+
+#c2_creditcalculator .col-xs-5 {
+  width: 41.66666667%;
+}
+
+#c2_creditcalculator .col-xs-4 {
+  width: 33.33333333%;
+}
+
+#c2_creditcalculator .col-xs-3 {
+  width: 25%;
+}
+
+#c2_creditcalculator .col-xs-2 {
+  width: 16.66666667%;
+}
+
+#c2_creditcalculator .col-xs-1 {
+  width: 8.33333333%;
+}
+
+@media (min-width: 768px) {
+  #c2_creditcalculator .col, #c2_creditcalculator .col-sm-1, #c2_creditcalculator .col-sm-2, #c2_creditcalculator .col-sm-3, #c2_creditcalculator .col-sm-4, #c2_creditcalculator .col-sm-5, #c2_creditcalculator .col-sm-6, #c2_creditcalculator .col-sm-7, #c2_creditcalculator .col-sm-8, #c2_creditcalculator .col-sm-9, #c2_creditcalculator .col-sm-10, #c2_creditcalculator .col-sm-11, #c2_creditcalculator .col-sm-12 {
+    float: left;
+  }
+  #c2_creditcalculator .col-sm-12 {
+    width: 100%;
+  }
+  #c2_creditcalculator .col-sm-11 {
+    width: 91.66666667%;
+  }
+  #c2_creditcalculator .col-sm-10 {
+    width: 83.33333333%;
+  }
+  #c2_creditcalculator .col-sm-9 {
+    width: 75%;
+  }
+  #c2_creditcalculator .col-sm-8 {
+    width: 66.66666667%;
+  }
+  #c2_creditcalculator .col-sm-7 {
+    width: 58.33333333%;
+  }
+  #c2_creditcalculator .col-sm-6 {
+    width: 50%;
+  }
+  #c2_creditcalculator .col-sm-5 {
+    width: 41.66666667%;
+  }
+  #c2_creditcalculator .col-sm-4 {
+    width: 33.33333333%;
+  }
+  #c2_creditcalculator .col-sm-3 {
+    width: 25%;
+  }
+  #c2_creditcalculator .col-sm-2 {
+    width: 16.66666667%;
+  }
+  #c2_creditcalculator .col-sm-1 {
+    width: 8.33333333%;
+  }
+}
+
+@media (min-width: 992px) {
+  #c2_creditcalculator .col, #c2_creditcalculator .col-md-1, #c2_creditcalculator .col-md-2, #c2_creditcalculator .col-md-3, #c2_creditcalculator .col-md-4, #c2_creditcalculator .col-md-5, #c2_creditcalculator .col-md-6, #c2_creditcalculator .col-md-7, #c2_creditcalculator .col-md-8, #c2_creditcalculator .col-md-9, #c2_creditcalculator .col-md-10, #c2_creditcalculator .col-md-11, #c2_creditcalculator .col-md-12 {
+    float: left;
+  }
+  #c2_creditcalculator .col-md-12 {
+    width: 100%;
+  }
+  #c2_creditcalculator .col-md-11 {
+    width: 91.66666667%;
+  }
+  #c2_creditcalculator .col-md-10 {
+    width: 83.33333333%;
+  }
+  #c2_creditcalculator .col-md-9 {
+    width: 75%;
+  }
+  #c2_creditcalculator .col-md-8 {
+    width: 66.66666667%;
+  }
+  #c2_creditcalculator .col-md-7 {
+    width: 58.33333333%;
+  }
+  #c2_creditcalculator .col-md-6 {
+    width: 50%;
+  }
+  #c2_creditcalculator .col-md-5 {
+    width: 41.66666667%;
+  }
+  #c2_creditcalculator .col-md-4 {
+    width: 33.33333333%;
+  }
+  #c2_creditcalculator .col-md-3 {
+    width: 25%;
+  }
+  #c2_creditcalculator .col-md-2 {
+    width: 16.66666667%;
+  }
+  #c2_creditcalculator .col-md-1 {
+    width: 8.33333333%;
+  }
+}
+
+@media (min-width: 1200px) {
+  #c2_creditcalculator .col, #c2_creditcalculator .col-lg-1, #c2_creditcalculator .col-lg-2, #c2_creditcalculator .col-lg-3, #c2_creditcalculator .col-lg-4, #c2_creditcalculator .col-lg-5, #c2_creditcalculator .col-lg-6, #c2_creditcalculator .col-lg-7, #c2_creditcalculator .col-lg-8, #c2_creditcalculator .col-lg-9, #c2_creditcalculator .col-lg-10, #c2_creditcalculator .col-lg-11, #c2_creditcalculator .col-lg-12 {
+    float: left;
+  }
+  #c2_creditcalculator .col-lg-12 {
+    width: 100%;
+  }
+  #c2_creditcalculator .col-lg-11 {
+    width: 91.66666667%;
+  }
+  #c2_creditcalculator .col-lg-10 {
+    width: 83.33333333%;
+  }
+  #c2_creditcalculator .col-lg-9 {
+    width: 75%;
+  }
+  #c2_creditcalculator .col-lg-8 {
+    width: 66.66666667%;
+  }
+  #c2_creditcalculator .col-lg-7 {
+    width: 58.33333333%;
+  }
+  #c2_creditcalculator .col-lg-6 {
+    width: 50%;
+  }
+  #c2_creditcalculator .col-lg-5 {
+    width: 41.66666667%;
+  }
+  #c2_creditcalculator .col-lg-4 {
+    width: 33.33333333%;
+  }
+  #c2_creditcalculator .col-lg-3 {
+    width: 25%;
+  }
+  #c2_creditcalculator .col-lg-2 {
+    width: 16.66666667%;
+  }
+  #c2_creditcalculator .col-lg-1 {
+    width: 8.33333333%;
+  }
+}
+
+#c2_creditcalculator .clearfix, #c2_creditcalculator .clearfix:before, #c2_creditcalculator .clearfix:after, #c2_creditcalculator .bscontainer:before, #c2_creditcalculator .bscontainer:after, #c2_creditcalculator .bscontainer-fluid:before, #c2_creditcalculator .bscontainer-fluid:after, #c2_creditcalculator .row:before, #c2_creditcalculator .row:after {
+  content: " ";
+  display: table;
+}
+
+#c2_creditcalculator .clearfix:after, #c2_creditcalculator .bscontainer:after, #c2_creditcalculator .bscontainer-fluid:after, #c2_creditcalculator .row:after {
+  clear: both;
+}
+
+#c2_creditcalculator .center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#c2_creditcalculator .pull-right {
+  float: right !important;
+}
+
+#c2_creditcalculator .pull-left {
+  float: left !important;
+}
+
+#c2_creditcalculator *, #c2_creditcalculator *:before, #c2_creditcalculator *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#c2_creditcalculator>div {
+  color: #808080;
+  /*  line-height: 30px;*/
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Ubuntu", "Noto Sans", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+#c2_creditcalculator .slider.slider-horizontal {
+  width: 100%;
+}
+
+#c2_creditcalculator .cp-huge {
+  font-size: 130%;
+  vertical-align: baseline;
+  font-weight: normal;
+}
+
+#c2_creditcalculator .text-center {
+  text-align: center;
+}
+
+#c2_creditcalculator .text-left {
+  text-align: left;
+}
+
+#c2_creditcalculator .hidden {
+  display: none;
+}
+
+#c2_creditcalculator .result-row {
+  text-align: center;
+}
+
+#c2_creditcalculator .slider-row {
+  margin-top: 15px;
+}
+
+#c2_creditcalculator .example-row {
+  margin-top: 25px;
+}
+
+@media (min-width: 768px) {
+  #c2_creditcalculator .result-row>div {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  #c2_creditcalculator .result-row>div {
+    margin-top: 10px;
+  }
+}
+
+#c2_creditcalculator .slider-track {
+  background-color: #cccccc;
+  background-image: none;
+}
+
+#c2_creditcalculator .slider-selection {
+  background-color: #2572fe;
+  background-image: none;
+}
+
+#c2_creditcalculator .slider-disabled .slider-handle {
+  display: none;
+}
+
+#c2_creditcalculator .slider-disabled .slider-selection {
+  display: none;
+}
+
+#c2_creditcalculator .slider-handle {
+  background: #e4e4e4;
+  background-color: #2572fe;
+  border-color: #2572fe;
+  border-width: 0px;
+}
+
+#c2_creditcalculator label {
+  font-weight: normal;
+  font-size: 115%;
+  vertical-align: baseline;
+  padding-top: 3px;
+}
+
+#c2_creditcalculator label.cp-huge {
+  font-size: 130%;
+  vertical-align: baseline;
+  font-weight: normal;
+}
+
+#c2_creditcalculator .text-right {
+  text-align: right;
+}
+
+#c2_creditcalculator .h-80 {
+  height: 80px;
+}
+
+#c2_creditcalculator .h-82 {
+  height: 82px;
+}
+
+#c2_creditcalculator .m-t {
+  margin-top: 20px !important;
+}
+
+#c2_creditcalculator .m-b {
+  margin-top: 20px !important;
+}
+
+#c2_creditcalculator .p-t {
+  padding-top: 20px !important;
+}
+
+#c2_creditcalculator .p-b {
+  padding-bottom: 20px !important;
+}
+
+#c2_creditcalculator .m-l-0 {
+  margin-left: 0px !important;
+}
+
+#c2_creditcalculator .m-r-0 {
+  margin-right: 0px !important;
+}
+
+#c2_creditcalculator .p-l-0 {
+  padding-left: 0px;
+}
+
+#c2_creditcalculator .p-r-0 {
+  padding-right: 0px;
+}
+
+#c2_creditcalculator .p-l-10 {
+  padding-left: 10px;
+}
+
+#c2_creditcalculator .p-r-10 {
+  padding-right: 10px;
+}
+
+
+#c2_creditcalculator .headline-row {
+  /*height: 80px;*/
+}
+
+#c2_creditcalculator .headline {
+  font-size: 16pt;
+  text-transform: uppercase;
+  margin-top: 16px;
+  line-height: 16pt;
+  margin-bottom: 3px;
+}
+
+#c2_creditcalculator .description {
+  font-size: 8pt;
+}
+
+#c2_creditcalculator .example-row .description {
+  font-size: 60%;
+  text-align: center;
+}
+
+#c2_creditcalculator .blue {
+  background-color: #2573FF;
+  color: #fff;
+  border-top: #2573FF 2px solid;
+  border-left: #2573FF 0px solid;
+  border-right: #2573FF 0px solid;
+  border-bottom: #cccccc 0px solid;
+}
+
+#c2_creditcalculator .percentValue {
+  font-size: 32pt;
+  line-height: 70px;
+}
+
+#c2_creditcalculator.small .percentValue {
+font-size: 20pt;
+line-height: 70px;
+}
+
+@media (max-width: 1279px) {
+  #c2_creditcalculator .percentValue {
+    font-size: 24pt;
+    line-height: 70px;
+  }
+}
+
+@media (max-width: 1279px) {
+  #c2_creditcalculator .headline {
+    font-size: 12pt;
+  }
+}
+
+#c2_creditcalculator .numericValue {
+  font-size: 18pt;
+  color: #2573FF;
+}
+
+#c2_creditcalculator .numericValueGrey {
+  font-size: 18pt;
+  color: #808080;
+}
+
+#c2_creditcalculator #grey-border-headline {
+  color: #808080;
+  border-left: 0px #2573FF solid;
+  border-right: 2px #cccccc solid;
+  border-bottom: 0px #cccccc solid;
+  border-top: 2px #cccccc solid;
+}
+
+@media (max-width: 991px) {
+  #c2_creditcalculator #grey-border-headline {
+    color: #808080;
+    border-left: 2px #cccccc solid;
+    border-right: 2px #cccccc solid;
+    border-bottom: 0px #cccccc solid;
+    border-top: 0px #cccccc solid;
+  }
+}
+
+#c2_creditcalculator .grey-border-side {
+  border-color: #cccccc;
+  border-width: 0px 2px 0px 2px;
+  border-style: solid;
+}
+
+#c2_creditcalculator .grey-border-side-bottom {
+  border-color: #cccccc;
+  border-width: 0px 2px 2px 2px;
+  border-style: solid;
+}
+
+#c2_creditcalculator .spacer {
+  border-top: #cccccc 1px solid;
+  /*width: 100%;*/
+}
+
+#c2_creditcalculator .thick-spacer {
+  border-top: #cccccc 3px solid;
+  /*width: 100%;*/
+}
+
+
+#c2_creditcalculator #gradient {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cccccc+0,cccccc+0,ffffff+4 */
+  background: #cccccc;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #cccccc 0%, #cccccc 0%, #ffffff 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #cccccc 0%, #cccccc 0%, #ffffff 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #cccccc 0%, #cccccc 0%, #ffffff 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#ffffff', GradientType=0);
+  /* IE6-9 */
+  padding-top: 20px;
+}
+
+
+/*** tooltip plugin css ***/
+
+#tooltip {
+  text-align: center;
+  color: #fff;
+  background: #111;
+  position: absolute;
+  z-index: 100;
+  padding: 15px;
+}
+
+#tooltip:after
+/* triangle decoration */
+
+{
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #111;
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  margin-left: -10px;
+}
+
+#tooltip.top:after {
+  border-top-color: transparent;
+  border-bottom: 10px solid #111;
+  top: -20px;
+  bottom: auto;
+}
+
+#tooltip.left:after {
+  left: 10px;
+  margin: 0;
+}
+
+#tooltip.right:after {
+  right: 10px;
+  left: auto;
+  margin: 0;
+}
+
+
+/* button */
+
+#c2_creditcalculator .btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 300;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.6;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-decoration: none;
+}
+
+#c2_creditcalculator .btn:focus, #c2_creditcalculator .btn:active:focus, #c2_creditcalculator .btn.active:focus, #c2_creditcalculator .btn.focus, #c2_creditcalculator .btn:active.focus, #c2_creditcalculator .btn.active.focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+#c2_creditcalculator .btn:hover, #c2_creditcalculator .btn:focus, #c2_creditcalculator .btn.focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+#c2_creditcalculator .btn:active, #c2_creditcalculator .btn.active {
+  outline: 0;
+  background-image: none;
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+#c2_creditcalculator .btn.disabled, #c2_creditcalculator .btn[disabled], #c2_creditcalculator fieldset[disabled] .btn {
+  cursor: not-allowed;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  box-shadow: none;
+}
+
+#c2_creditcalculator a.btn.disabled, #c2_creditcalculator fieldset[disabled] a.btn {
+  pointer-events: none;
+}
+
+#c2_creditcalculator .btn-default {
+  color: #fff;
+  background-color: #2573FF;
+  border-color: #2573FF;
+}
+
+#c2_creditcalculator .btn-default:focus, #c2_creditcalculator .btn-default.focus {
+  color: #fff;
+  background-color: #2573FF;
+  border-color: #2573FF;
+}
+
+#c2_creditcalculator .btn-default:hover {
+  color: #fff;
+  background-color: #2573FF;
+  border-color: #2573FF;
+}
+
+#c2_creditcalculator .btn-default:active, #c2_creditcalculator .btn-default.active, #c2_creditcalculator .open>.dropdown-toggle.btn-default {
+  color: #fff;
+  background-color: #2573FF;
+  border-color: #2573FF;
+}
+
+#c2_creditcalculator .btn-default:active:hover, #c2_creditcalculator .btn-default.active:hover, #c2_creditcalculator .open>.dropdown-toggle.btn-default:hover, #c2_creditcalculator .btn-default:active:focus, #c2_creditcalculator .btn-default.active:focus, #c2_creditcalculator .open>.dropdown-toggle.btn-default:focus, #c2_creditcalculator .btn-default:active.focus, #c2_creditcalculator .btn-default.active.focus, #c2_creditcalculator .open>.dropdown-toggle.btn-default.focus {
+  color: #fff;
+  background-color: #2573FF;
+  border-color: #2573FF;
+}
+
+#c2_creditcalculator .btn-default:active, #c2_creditcalculator .btn-default.active, #c2_creditcalculator .open>.dropdown-toggle.btn-default {
+  background-image: none;
+}
+
+#c2_creditcalculator .btn-primary {
+  color: #fff;
+  background-color: #307bff;
+  border-color: #0c64ff;
+}
+
+#c2_creditcalculator .btn-primary:focus, #c2_creditcalculator .btn-primary.focus {
+  color: #fff;
+  background-color: #307bff;
+  border-color: #0049c9;
+}
+
+#c2_creditcalculator .btn-primary:hover {
+  color: #fff;
+  background-color: #639bff;
+  border-color: #4a8bff;
+  /*color: #fff;
+  background-color: #307bff;
+  border-color: #0c64ff;*/
+}
+
+#c2_creditcalculator .btn-primary:active, #c2_creditcalculator .btn-primary.active, #c2_creditcalculator .open>.dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #307bff;
+  border-color: #0c64ff;
+}
+
+#c2_creditcalculator .btn-primary:active:hover, #c2_creditcalculator .btn-primary.active:hover, #c2_creditcalculator .open>.dropdown-toggle.btn-primary:hover, #c2_creditcalculator .btn-primary:active:focus, #c2_creditcalculator .btn-primary.active:focus, #c2_creditcalculator .open>.dropdown-toggle.btn-primary:focus, #c2_creditcalculator .btn-primary:active.focus, #c2_creditcalculator .btn-primary.active.focus, #c2_creditcalculator .open>.dropdown-toggle.btn-primary.focus {
+  color: #fff;
+  background-color: #0c64ff;
+  border-color: #0049c9;
+}
+
+#c2_creditcalculator .btn-primary:active, #c2_creditcalculator .btn-primary.active, #c2_creditcalculator .open>.dropdown-toggle.btn-primary {
+  background-image: none;
+}
+
+#c2_creditcalculator .btn-primary.disabled:hover, #c2_creditcalculator #c2_creditcalculator .btn-primary[disabled]:hover, #c2_creditcalculator fieldset[disabled] .btn-primary:hover, #c2_creditcalculator .btn-primary.disabled:focus, #c2_creditcalculator .btn-primary[disabled]:focus, #c2_creditcalculator fieldset[disabled] .btn-primary:focus, #c2_creditcalculator .btn-primary.disabled.focus, #c2_creditcalculator .btn-primary[disabled].focus, #c2_creditcalculator fieldset[disabled] .btn-primary.focus {
+  background-color: #639bff;
+  border-color: #4a8bff;
+}
+
+#c2_creditcalculator .btn-primary .badge {
+  color: #639bff;
+  background-color: #fff;
+}
+
+#c2_creditcalculator .btn-lg, #c2_creditcalculator .btn-group-lg>.btn {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+
+#c2_creditcalculator .btn-sm, #c2_creditcalculator .btn-group-sm>.btn {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+#c2_creditcalculator .btn-xs, #c2_creditcalculator .btn-group-xs>.btn {
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+#c2_creditcalculator .btn-block {
+  display: block;
+  width: 100%;
+}
+
+#c2_creditcalculator .btn-block+.btn-block {
+  margin-top: 5px;
+}
+
+#c2_creditcalculator .col-xs-offset-12 {
+  margin-left: 100%;
+}
+
+#c2_creditcalculator .col-xs-offset-11 {
+  margin-left: 91.66666667%;
+}
+
+#c2_creditcalculator .col-xs-offset-10 {
+  margin-left: 83.33333333%;
+}
+
+#c2_creditcalculator .col-xs-offset-9 {
+  margin-left: 75%;
+}
+
+#c2_creditcalculator .col-xs-offset-8 {
+  margin-left: 66.66666667%;
+}
+
+#c2_creditcalculator .col-xs-offset-7 {
+  margin-left: 58.33333333%;
+}
+
+#c2_creditcalculator .col-xs-offset-6 {
+  margin-left: 50%;
+}
+
+#c2_creditcalculator .col-xs-offset-5 {
+  margin-left: 41.66666667%;
+}
+
+#c2_creditcalculator .col-xs-offset-4 {
+  margin-left: 33.33333333%;
+}
+
+#c2_creditcalculator .col-xs-offset-3 {
+  margin-left: 25%;
+}
+
+#c2_creditcalculator .col-xs-offset-2 {
+  margin-left: 16.66666667%;
+}
+
+#c2_creditcalculator .col-xs-offset-1 {
+  margin-left: 8.33333333%;
+}
+
+#c2_creditcalculator .col-xs-offset-0 {
+  margin-left: 0%;
+}

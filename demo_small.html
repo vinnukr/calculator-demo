@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+  <script src="lib/jquery-3.2.1.min.js"></script>
+  <script src="c2_creditcalculator.jquery.all.min.js"></script>
+</head>
+<body style="background-color: #ccffcc; margin: 0px; padding: 0px;">
+<div style="padding:0px;"><div id="c2_creditcalculator_container" style="width: 1000px; float: right; margin-right: 50px;"></div></div>
+<footer></footer>
+<script type="text/javascript">
+$(document).ready(function() {
+  CreditCalculator.init({targetSelector:"#c2_creditcalculator_container",language:"de", amount: 1300.75,interestFreeDays:30, partnerApiKey:"5436ed23a2bf5022b18b15be13d347b1",url: "https://this.is.my.shop.com/redirect/bla", format: "small", hideButton: true, mode:"test"});
+});
+</script>
+</body>
+</html>
