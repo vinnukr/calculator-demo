@@ -19,7 +19,7 @@ $(document).ready(function() {
 
 * **targetSelector**: The id of the container, where the cashpresso credit calculator should be loaded.
 * **language**: Currently support are _de_, _en_
-* **amount** (optional): if specied, freezes the credit amount to the given value
+* **amount** (optional): if specified, freezes the credit amount to the given value
 * **interestFreeDays** (optional): number of interest free days the creditcalculator that the partner provides - validated against the partnerApiKey!
 * **partnerApiKey** (optional): your Api key - displayed if you login to partner.cashpresso.com
 * **url** (optional): The url that the "Finance with cashpresso" button should point to! - Specify your affiliate url. E-Commerce partners will probably want to hide this button in favour of their own checkout button! ->
