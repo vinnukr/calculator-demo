@@ -21,7 +21,7 @@ $(document).ready(function() {
 * **language**: Currently support are _de_, _en_
 * **amount** (optional): if specified, freezes the credit amount to the given value
 * **interestFreeDays** (optional): number of interest free days the creditcalculator that the partner provides - validated against the partnerApiKey!
-* **partnerApiKey** (optional): your Api key - displayed if you login to partner.cashpresso.com
+* **partnerApiKey** (optional): your Api key is necessary if you are an e-Commerce partner and want to include your additional interest free days in the credit calculation - the Api key is displayed if you login to partner.cashpresso.com (for the test environment: https://test.cashpresso.com/urlreferral/)
 * **url** (optional): The url that the "Finance with cashpresso" button should point to! - Specify your affiliate url. E-Commerce partners will probably want to hide this button in favour of their own checkout button! ->
 * **hideButton** (optional): true/false - Hides the "Finance with cashpresso" button when true
 * **format**: one of_small_/_wide_ - default: _wide_
