@@ -29,6 +29,7 @@ $(document).ready(function() {
 
 ## Layout customization
 We use a reduced and simplified bootstrap sample that is prefixed with #c2_creditcalculator (the id of the container we load). The full stylesheet can be found in the [lib-folder](./lib/cashpresso-styles.css)!
+**Attention**: The creditcalculator loads the stylesheet from cashpresso.com - the css file here is provided only as documentation!
 
 ### Slider customization
 This uses the bootstrap-slider by seiyria!
