@@ -33,7 +33,7 @@ If you want to process the data that the user selected in the calculator, you ha
 2. The creditcalculator provides two input fields (hidden) that can be used when the creditcalculator is included in a form  - _amountSlider_ holds the selected credit amount and _paybackRateSlider_ holds the selected monthly rate.
 
 ## Layout customization
-We use a reduced and simplified bootstrap sample that is prefixed with #c2_creditcalculator (the id of the container we load). The full stylesheet can be found in the [lib-folder](./lib/cashpresso-styles.css)!
+We use a reduced and simplified bootstrap sample that is prefixed with #c2_creditcalculator (the id of the container we load). The full stylesheet can be found in the [lib-folder](./lib/cashpresso-style.css)!
 **Attention**: The creditcalculator loads the stylesheet from cashpresso.com - the css file here is provided only as   documentation!
 
 ### Slider customization
